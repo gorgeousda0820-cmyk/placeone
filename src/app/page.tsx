@@ -70,7 +70,7 @@ export default function Home() {
     setUrl('')
   }
 
-  const isLoading = state.status === 'loading'
+  const _isLoading = state.status === 'loading'
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-fuchsia-50 flex flex-col font-sans">
